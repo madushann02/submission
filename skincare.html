@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Products</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>S&M Grocery Store</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button">Search</button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropbtn">About us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="vegetables.html">Vegetables</a></li>
+                            <li><a href="dairy.html">Dairy</a></li>
+                            <li><a href="skincare.html">Skincare</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ordering.html">Order page </a></li>
+                    <li><a href="loyalty.html">Loyalty Registeration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="skincare-section">
+            <h3 id="skincare-heading">Skincare Products</h3>
+            <div class="skincare-grid" id="skincare-grid">
+                <div class="skincare-item" id="moisturizer-product">
+                    <img src="images/skincare03.jpeg" alt="Moisturizer">
+                    <h4>Moisturizer</h4>
+                    <p>Rs.1200</p>
+                    <button class="order-button" id="moisturizer-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="skincare-item" id="cleanser-product">
+                    <img src="images/cleanser.jpg" alt="Cleanser">
+                    <h4>Cleanser</h4>
+                    <p>Rs.1500</p>
+                    <button class="order-button" id="cleanser-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="skincare-item" id="sunscreen-product">
+                    <img src="images/skinbrightner.jpg" alt="Sunscreen">
+                    <h4>Garnier</h4>
+                    <p>Rs.900</p>
+                    <button class="order-button" id="sunscreen-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="skincare-item" id="sunscreen-product">
+                    <img src="images/ceraveskin.jpeg" alt="Sunscreen">
+                    <h4>Cerave</h4>
+                    <p>Rs.1600</p>
+                    <button class="order-button" id="sunscreen-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="skincare-item" id="sunscreen-product">
+                    <img src="images/facewashskin.jpg" alt="Sunscreen">
+                    <h4>Cleanclear</h4>
+                    <p>Rs.2200</p>
+                    <button class="order-button" id="sunscreen-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+            </div>
+            <div class="order-link" id="more-skincare-order">
+                <a href="order.html" class="main-button">Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Visit us for a wide selection of organic and locally sourced goods.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us</p>
+                <p>Email: S&Mstores@grocerystore.com</p>
+                <p>Phone: 0768335226</p>
+                <p>Address: 199 Union Pl, Colombo 00200</p>
+            </div>
+    </footer>
+</body>
+</html>
+

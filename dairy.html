@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Products - Grocery Store</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>S&M Grocery Store</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button">Search</button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropbtn">About us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="vegetables.html">Vegetables</a></li>
+                            <li><a href="dairy.html">Dairy</a></li>
+                            <li><a href="skincare.html">Skincare</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="orderring.html">Order page </a></li>
+                    <li><a href="loyalty.html">Loyalty Registeration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="heading-section">
+            <h2 id="product-heading">Delicious Dairy Products</h2>
+            <p id="product-description">Explore our collection of fresh and nutritious dairy products sourced from local farms and trusted suppliers.</p>
+        </div>
+        <section id="dairy-section">
+            <div class="product-grid" id="dairy-grid">
+                <div class="product-item" id="milk-product">
+                    <img src="images/freshmilk01.jpeg" alt="Milk">
+                    <h4>Fresh Milk</h4>
+                    <p>Rs.900</p>
+                    <button class="order-button" id="milk-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="product-item" id="cheese-product">
+                    <img src="images/cheese.jpg" alt="Cheese">
+                    <h4>Cheese</h4>
+                    <p>Rs.1200</p>
+                    <button class="order-button" id="cheese-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="product-item" id="yogurt-product">
+                    <img src="images/yogurt01.jpeg" alt="Yogurt">
+                    <h4>Yogurt</h4>
+                    <p>Rs.200</p>
+                    <button class="order-button" id="yogurt-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="product-item" id="butter-product">
+                    <img src="images/butter01.jpeg" alt="Butter">
+                    <h4>Butter</h4>
+                    <p>Rs.800</p>
+                    <button class="order-button" id="butter-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="product-item" id="cream-product">
+                    <img src="images/creamcheese.jpeg" alt="Cream">
+                    <h4>Cream</h4>
+                    <p>Rs.1000</p>
+                    <button class="order-button" id="cream-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+                <div class="product-item" id="ice-cream-product">
+                    <img src="images/icecream.jpeg" alt="Ice Cream">
+                    <h4>Ice Cream</h4>
+                    <p>Rs.550</p>
+                    <button class="order-button" id="ice-cream-order" onclick="window.location.href='order.html'">Add to cart</button>
+                </div>
+            </div>
+        </section>
+        <div class="order-link" id="more-dairy-order">
+            <a href="order.html" class="order-button">checkout</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p> Visit us for a wide selection of organic and locally sourced goods.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us</p>
+                <p>Email: S&Mstores@grocerystore.com</p>
+                <p>Phone: 0768335226</p>
+                <p>Address: 199 Union Pl, Colombo 00200</p>
+            </div>
+    </footer>
+</body>
+</html>

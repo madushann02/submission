@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Order</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>S&M Grocery Store</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button">Search</button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropbtn">About us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="vegetables.html">Vegetables</a></li>
+                            <li><a href="dairy.html">Dairy</a></li>
+                            <li><a href="skincare.html">Skincare</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ordering.html">Order page </a></li>
+                    <li><a href="loyalty.html">Loyalty Registeration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Order Groceries</h1>
+
+        <form id="groceryForm">
+            <section>
+                <h2>Fruits</h2>
+                <div>
+                    <label for="apple">Apple (kg):</label>
+                    <input type="number" id="apple" data-name="Apple" data-price="2.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="banana">Banana (kg):</label>
+                    <input type="number" id="banana" data-name="Banana" data-price="1.80" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="orange">Orange (kg):</label>
+                    <input type="number" id="orange" data-name="Orange" data-price="2.20" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="grapes">Grapes (kg):</label>
+                    <input type="number" id="grapes" data-name="Grapes" data-price="3.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="strawberry">Strawberry (kg):</label>
+                    <input type="number" id="strawberry" data-name="Strawberry" data-price="4.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="blueberry">Blueberry (kg):</label>
+                    <input type="number" id="blueberry" data-name="Blueberry" data-price="5.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+            </section>
+
+            <section>
+                <h2>Vegetables</h2>
+                <div>
+                    <label for="carrot">Carrot (kg):</label>
+                    <input type="number" id="carrot" data-name="Carrot" data-price="1.50" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="broccoli">Broccoli (kg):</label>
+                    <input type="number" id="broccoli" data-name="Broccoli" data-price="2.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="spinach">Spinach (kg):</label>
+                    <input type="number" id="spinach" data-name="Spinach" data-price="2.50" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="potato">Potato (kg):</label>
+                    <input type="number" id="potato" data-name="Potato" data-price="1.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="onion">Onion (kg):</label>
+                    <input type="number" id="onion" data-name="Onion" data-price="1.20" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="pepper">Pepper (kg):</label>
+                    <input type="number" id="pepper" data-name="Pepper" data-price="3.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+            </section>
+
+            <section>
+                <h2>Dairy Produce</h2>
+                <div>
+                    <label for="milk">Milk (liters):</label>
+                    <input type="number" id="milk" data-name="Milk" data-price="1.20" step="0.01" min="0" placeholder="Liters">
+                </div>
+                <div>
+                    <label for="cheese">Cheese (kg):</label>
+                    <input type="number" id="cheese" data-name="Cheese" data-price="4.50" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="yogurt">Yogurt (liters):</label>
+                    <input type="number" id="yogurt" data-name="Yogurt" data-price="1.80" step="0.01" min="0" placeholder="Liters">
+                </div>
+                <div>
+                    <label for="butter">Butter (kg):</label>
+                    <input type="number" id="butter" data-name="Butter" data-price="6.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="cream">Cream (liters):</label>
+                    <input type="number" id="cream" data-name="Cream" data-price="2.50" step="0.01" min="0" placeholder="Liters">
+                </div>
+                <div>
+                    <label for="milk_powder">Milk Powder (kg):</label>
+                    <input type="number" id="milk_powder" data-name="Milk Powder" data-price="7.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+            </section>
+
+            <section>
+                <h2>Meat and Seafood</h2>
+                <div>
+                    <label for="chicken">Chicken (kg):</label>
+                    <input type="number" id="chicken" data-name="Chicken" data-price="5.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="beef">Beef (kg):</label>
+                    <input type="number" id="beef" data-name="Beef" data-price="8.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="salmon">Salmon (kg):</label>
+                    <input type="number" id="salmon" data-name="Salmon" data-price="12.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="shrimp">Shrimp (kg):</label>
+                    <input type="number" id="shrimp" data-name="Shrimp" data-price="15.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="tuna">Tuna (kg):</label>
+                    <input type="number" id="tuna" data-name="Tuna" data-price="10.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+                <div>
+                    <label for="lobster">Lobster (kg):</label>
+                    <input type="number" id="lobster" data-name="Lobster" data-price="25.00" step="0.01" min="0" placeholder="Kg">
+                </div>
+            </section>
+
+            <section>
+                <h2>Cosmetics</h2>
+                <div>
+                    <label for="foundation">Foundation (100ml):</label>
+                    <input type="number" id="foundation" data-name="Foundation" data-price="15.00" step="0.01" min="0" placeholder="100ml">
+                </div>
+                <div>
+                    <label for="lipstick">Lipstick:</label>
+                    <input type="number" id="lipstick" data-name="Lipstick" data-price="10.00" step="0.01" min="0" placeholder="Each">
+                </div>
+                <div>
+                    <label for="mascara">Mascara:</label>
+                    <input type="number" id="mascara" data-name="Mascara" data-price="12.00" step="0.01" min="0" placeholder="Each">
+                </div>
+                <div>
+                    <label for="moisturizer">Moisturizer (50ml):</label>
+                    <input type="number" id="moisturizer" data-name="Moisturizer" data-price="20.00" step="0.01" min="0" placeholder="50ml">
+                </div>
+                <div>
+                    <label for="shampoo">Shampoo (500ml):</label>
+                    <input type="number" id="shampoo" data-name="Shampoo" data-price="8.00" step="0.01" min="0" placeholder="500ml">
+                </div>
+                <div>
+                    <label for="conditioner">Conditioner (500ml):</label>
+                    <input type="number" id="conditioner" data-name="Conditioner" data-price="8.00" step="0.01" min="0" placeholder="500ml">
+                </div>
+            </section>
+
+            <div class="button-group">
+                <button type="button" onclick="addToCart()">Add to Cart</button>
+                <button type="button" onclick="buyNow()">Buy Now</button>
+                <button type="button" onclick="addToFavourites()">Add to Favourites</button>
+                <button type="button" onclick="applyFavourites()">Apply Favourites</button>
+            </div>
+        </form>
+
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity/Weight</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Items will be added dynamically here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td id="totalPrice">$0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Registration</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body class="loyalty">
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>S&M Grocery Store</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button">Search</button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" class="dropbtn">About us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="vegetables.html">Vegetables</a></li>
+                            <li><a href="dairy.html">Dairy</a></li>
+                            <li><a href="skincare.html">Skincare</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="orderring.html">Order page </a></li>
+                    <li><a href="loyalty.html">Loyalty Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="loyalty-section">
+            <h2>Loyalty Program Registration</h2>
+            <form action="#" method="post" class="loyalty-form">
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="loyalty-scheme">Choose a Loyalty Scheme:</label>
+                    <select id="loyalty-scheme" name="loyalty-scheme" required>
+                        <option value="basic">Basic</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </div>
+                <button type="submit" class="primary-button">Register</button>
+            </form>
+            <div class="loyalty-benefits">
+                <h3>Loyalty Scheme Benefits</h3>
+                <ul>
+                    <li><strong>Basic:</strong> 5% discount on all products.</li>
+                    <li><strong>Silver:</strong> 10% discount on all products, free delivery.</li>
+                    <li><strong>Gold:</strong> 15% discount on all products, free delivery, and exclusive offers.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p> Visit us for a wide selection of organic and locally sourced goods.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us</p>
+                <p>Email: S&Mstores@grocerystore.com</p>
+                <p>Phone: 0768335226</p>
+                <p>Address: 199 Union Pl, Colombo 00200</p>
+            </div>
+    </footer>
+</body>
+</html>
